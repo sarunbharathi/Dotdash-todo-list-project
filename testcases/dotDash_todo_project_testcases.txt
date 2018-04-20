@@ -1,1 +1,56 @@
-#test
+Step#	Scenario	Step						Expected
+1	Add Task	Check for input box  to text in the task	User should be displayed with text box in edit mode
+2			Enter some text in the input box		User should be able to tex-in and text should be displayed
+3			Click on "Add" button				Entered task should be added to the list
+
+------------------------------------
+
+1	Complete the 	Check for checkbox for all added tasks		User should be displayed with editable checkbox for all added tasks
+	uncompleted task	
+2			Select a task that is not completed		User should be able to select the task
+3			Click on "Complete" button			Selected task should striked out to show it's completed
+
+-----------------------------------
+
+1	Uncomplete the	Check for checkbox for all added tasks		User should be displayed with editable checkbox for all added tasks
+	completed task
+2			Select a task that is completed			User should be able to select the task
+3			Click on "Compelte" button			Selected compelted task should be shown as uncompelted - striked line should be removed
+
+------------------------------------------
+
+1	Complete task	Check for checkbox for all added tasks		User should be displayed with editable checkbox for all added tasks
+	Select more 
+	than one task 
+	compelte and 
+	incompelte 
+	tasks	
+2			Select more than one check box combination	User should be able to select more than one tasks
+			of complete and incomplete tasks
+3			Click on "Compelte" button			Selected incomplete tasks should be shown as compelted as task is stricked out and selected  
+									completed tasks should be shows as incomplete as tasks strick out is removed 
+------------------------------------
+
+1	Remove the 	Check for checkbox for all added tasks		User should be displayed with editable checkbox for all added tasks
+	task	
+2			Select any task that available from the list	User should be able to select the task
+3			Click on Remove" button				Selected task should be removed from he list
+
+-----------------------------------
+
+1	Remove more 	Check for checkbox for all added tasks		User should be displayed with editable checkbox for all added tasks
+	than one	
+	task	
+2			Select more than onetask that available from 	User should be able to select more than one task
+			the list					
+3			Click on Remove" button				Selected tasks should be removed from he list
+
+-----------------------------------
+
+1	Toggle box 	Check for "Toggle all" check box		User should be displayed with "Toggle all" check box
+
+2			Click on "Toggle all" 				All tasks should be selected or deselected based on previous toggle status
+3a			Click on "Complete" button			Selected incomplete tasks should be shown as compelted as task is stricked out and selected  
+									completed tasks should be shows as incomplete as tasks strick out is removed 
+3b			Click on "Remove" button			Selected tasks should be removed from the list
+---------------------------------------
