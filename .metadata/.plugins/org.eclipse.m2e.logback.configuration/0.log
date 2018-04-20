@@ -1,0 +1,2 @@
+2018-04-20 11:33:10,924 [main] INFO  o.e.j.client.core.ClientTestImpl - adding IAUTEventListener org.eclipse.jubula.client.ui.rcp.controllers.TestExecutionContributor:org.eclipse.jubula.client.ui.rcp.controllers.TestExecutionContributor@4cd5fc46
+2018-04-20 11:33:20,273 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
