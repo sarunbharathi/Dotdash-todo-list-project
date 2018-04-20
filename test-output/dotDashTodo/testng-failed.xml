@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [dotDashTodo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="dotDashTodo(failed)">
+    <classes>
+      <class name="test.todo.scenario.TodoScenario_simple">
+        <methods>
+          <include name="launchURL"/>
+        </methods>
+      </class> <!-- test.todo.scenario.TodoScenario_simple -->
+    </classes>
+  </test> <!-- dotDashTodo(failed) -->
+</suite> <!-- Failed suite [dotDashTodo] -->

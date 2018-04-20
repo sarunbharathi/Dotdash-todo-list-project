@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-04-20T15:38:03Z" name="dotDashTodo" finished-at="2018-04-20T15:38:54Z" duration-ms="51480">
+    <groups>
+    </groups>
+    <test started-at="2018-04-20T15:38:03Z" name="dotDashTodo" finished-at="2018-04-20T15:38:54Z" duration-ms="51480">
+      <class name="test.todo.scenario.TodoScenario_simple">
+        <test-method signature="launchBrowserAndURL()[pri:1, instance:test.todo.scenario.TodoScenario_simple@5fbe4146]" started-at="2018-04-20T15:38:03Z" name="launchBrowserAndURL" finished-at="2018-04-20T15:38:10Z" duration-ms="7048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndURL -->
+        <test-method signature="addTask()[pri:2, instance:test.todo.scenario.TodoScenario_simple@5fbe4146]" started-at="2018-04-20T15:38:10Z" name="addTask" finished-at="2018-04-20T15:38:22Z" duration-ms="12017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTask -->
+        <test-method signature="completeTask()[pri:4, instance:test.todo.scenario.TodoScenario_simple@5fbe4146]" started-at="2018-04-20T15:38:22Z" name="completeTask" finished-at="2018-04-20T15:38:27Z" duration-ms="5207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeTask -->
+        <test-method signature="removeTask()[pri:5, instance:test.todo.scenario.TodoScenario_simple@5fbe4146]" started-at="2018-04-20T15:38:27Z" name="removeTask" finished-at="2018-04-20T15:38:32Z" duration-ms="5245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeTask -->
+        <test-method signature="incompleteTask()[pri:6, instance:test.todo.scenario.TodoScenario_simple@5fbe4146]" started-at="2018-04-20T15:38:32Z" name="incompleteTask" finished-at="2018-04-20T15:38:37Z" duration-ms="5205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incompleteTask -->
+        <test-method signature="countTask()[pri:7, instance:test.todo.scenario.TodoScenario_simple@5fbe4146]" started-at="2018-04-20T15:38:37Z" name="countTask" finished-at="2018-04-20T15:38:37Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countTask -->
+        <test-method signature="toggleAll()[pri:8, instance:test.todo.scenario.TodoScenario_simple@5fbe4146]" started-at="2018-04-20T15:38:37Z" name="toggleAll" finished-at="2018-04-20T15:38:45Z" duration-ms="7471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toggleAll -->
+        <test-method signature="removeMoreThanOneTask()[pri:9, instance:test.todo.scenario.TodoScenario_simple@5fbe4146]" started-at="2018-04-20T15:38:45Z" name="removeMoreThanOneTask" finished-at="2018-04-20T15:38:50Z" duration-ms="5291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeMoreThanOneTask -->
+        <test-method signature="quiiteBrowser()[pri:10, instance:test.todo.scenario.TodoScenario_simple@5fbe4146]" started-at="2018-04-20T15:38:50Z" name="quiiteBrowser" finished-at="2018-04-20T15:38:54Z" duration-ms="3769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiiteBrowser -->
+      </class> <!-- test.todo.scenario.TodoScenario_simple -->
+    </test> <!-- dotDashTodo -->
+  </suite> <!-- dotDashTodo -->
+</testng-results>
