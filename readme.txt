@@ -15,6 +15,8 @@ Implementation:
 So, I have simple stright forward approch.
 All objects, operations and execution are in same file "TodoScenario_simple.java". If we execute "testng.xml", we can see the execution.
 
+Also, I have added test cases in the "testcases" folder. I don't understand about API scenarios, so, I didn't do that. I have already mail to qa@dotdash team about it. Sorry for the inconvenience.
+
 I did add all my work (working / not working codes and commented lines) in this repo for your review and let you know about my approch.
 Thanks again, have a great day! 
 Arun Bharathi S (arunbharathis@gmail.com)
